@@ -8,7 +8,7 @@ function carregar () {
     if (hora >= 0 && hora < 6) {
         // BOA MADRUGADA!
         img.src = 'madrugada.png'
-        document.body.style.background = '#493838'
+        document.body.style.background = '#4b2424'
     } else if (hora >= 6 && hora < 12) {
         // BOM DIA!
         img.src= 'fotomanha.png';
@@ -19,7 +19,7 @@ function carregar () {
         document.body.style.background = '#e8763b'
     } else {
         // BOA NOITE!
-        img.src= 'fotonoite.png';
-        document.body.style.background = '#1b3550'
+        img.src= 'noite.png';
+        document.body.style.background = '#24383f'
     }
 }
